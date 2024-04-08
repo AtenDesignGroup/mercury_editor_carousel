@@ -1,0 +1,7 @@
+name: Mercury Editor Carousel
+type: module
+description: 'Provides a carousel layout to the Mercury Editor.'
+core_version_requirement: ^10
+package: 'Mercury Editor'
+dependencies:
+  - mercury_editor:mercury_editor

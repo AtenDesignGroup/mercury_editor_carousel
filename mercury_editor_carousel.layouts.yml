@@ -1,0 +1,14 @@
+carousel:
+  label: 'Carousel'
+  template: templates/carousel
+  class: 'Drupal\style_options\Plugin\Layout\StyleOptionLayoutPlugin'
+  category: 'Carousel'
+  library: mercury_editor_carousel/layout
+  default_region: carousel_items
+  icon_map:
+    - [header]
+    - [carousel_items, carousel_items2, carousel_items3]
+    - [footer]
+  regions:
+    carousel_items:
+      label: Carousel Items

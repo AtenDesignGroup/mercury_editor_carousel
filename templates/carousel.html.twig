@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Template for a carousel.
+ */
+#}
+{%
+  set classes = [
+    'layout',
+    'l--' ~ layout.id|clean_class,
+  ]
+%}
+{% if content %}
+	<div{{attributes.addClass(classes)}}>
+  {% if content.carousel_items %}
+  <div {{ region_attributes.carousel_items.addClass('l__region', 'l__carousel_items') }}>
+    {{ content.carousel_items }}
+    </div>
+  {% endif %}
+	</div>
+{% endif %}
+

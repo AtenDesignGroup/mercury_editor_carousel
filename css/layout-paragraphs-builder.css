@@ -1,0 +1,27 @@
+/**
+ * Carousel tweaks for Layout Paragraphs Builder.
+ * Insets LP controls and moves add buttons to left and right sides.
+ */
+
+[data-layout="me_carousel"] [data-uuid] .lpb-controls {
+  top: 30px;
+  left: 20px;
+}
+[data-layout="me_carousel"] [data-uuid] .lpb-btn--add.before {
+  top: 50%;
+  margin: 0;
+  left: 0;
+  right: auto;
+  transform: translate(-50%, -50%);
+}
+[data-layout="me_carousel"] [data-uuid] .lpb-btn--add.after {
+  top: 50%;
+  margin: 0;
+  right: 0;
+  left: auto;
+  transform: translate(50%, -50%);
+}
+[data-layout="me_carousel"] [data-uuid] .lpb-down,
+[data-layout="me_carousel"] [data-uuid] .lpb-up {
+  transform: rotate(-90deg);
+}

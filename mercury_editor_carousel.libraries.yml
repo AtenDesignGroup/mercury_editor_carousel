@@ -1,0 +1,4 @@
+layout_paragraphs_builder:
+  css:
+    component:
+      css/layout-paragraphs-builder.css: {}
